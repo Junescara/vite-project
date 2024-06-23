@@ -31,7 +31,7 @@ const routes = [
       {
         path: "OntoAdd",
         name: "OntoAdd",
-        component: () => import("@/module/OntologyAdd.vue"),
+        component: () => import("@/views/system/OntologyAdd.vue"),
         meta: {
           title: "类型添加",
           menu: false,
