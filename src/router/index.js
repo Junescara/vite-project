@@ -12,7 +12,7 @@ const constantRoutes = [
   {
     path: "/404",
     name: "404",
-    component: () => import("../views/bamboo/404.vue"),
+    component: () => import("@/views/bamboo/404.vue"),
     meta: { title: "404" },
   },
 ];
@@ -31,7 +31,7 @@ const routes = [
       {
         path: "OntoAdd",
         name: "OntoAdd",
-        component: () => import("/point/vite-project/src/module/OntologyAdd.vue"),
+        component: () => import("@/module/OntologyAdd.vue"),
         meta: {
           title: "类型添加",
           menu: false,
@@ -42,7 +42,7 @@ const routes = [
       {
         path: "Hello",
         name: "Hello",
-        component: () => import("/point/vite-project/src/components/HelloWorld.vue"),
+        component: () => import("@/views/system/HelloWorld.vue"),
         meta: {
           title: "类型添加",
           menu: false,
@@ -52,7 +52,7 @@ const routes = [
       {
         path: "Member",
         name: "Member",
-        component: () => import("/point/vite-project/src/views/system/member.vue"),
+        component: () => import("@/views/system/member.vue"),
         meta: {
           title: "成员查看",
           menu: false,

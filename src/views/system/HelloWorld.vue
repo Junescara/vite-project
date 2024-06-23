@@ -123,17 +123,6 @@ methods:{
 
              ]
     },
-  Add(){
-    axios.post('http://localhost:8581/bamboo/add',{
-      name:this.name,
-      age:this.age,
-      score:this.score
-      })
-      .catch(error=>{
-        this.STCDempty = true;
-       
-      })
-  },
   handleSizeChange(val) {
                   console.log(`每页 ${val} 条`);
                   this.currentPage = 1;

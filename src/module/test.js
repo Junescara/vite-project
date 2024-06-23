@@ -1,4 +1,4 @@
-import request from "/point/vite-project/src/module/request";
+import request from "@/module/request";
 
 
 //获取本体

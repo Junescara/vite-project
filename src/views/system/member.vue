@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import {List} from "/point/vite-project/src/module/test";
+import {List} from "@/module/test";
 export default {
     data(){
         return{
